@@ -1,7 +1,7 @@
 {
-  "connectionString": "[IOT HUB NAME].azure-devices.net;DeviceId=[DEVIVE ID];SharedAccessKey=[SHARED KEY]",
+  "connectionString": "HostName=iothubtestsedgepnp.azure-devices.net;DeviceId=simulator5;SharedAccessKey=9PUl2lovvijycVlibTPTbp5lemiI1LX522HbjB587cc=",
   "simulationSettings": {
-    "enableLatencyTests": true,
+    "enableLatencyTests": false,
     "latencyTestsFrecuency": 30,
     "enableDevice": true,
     "enableModules": false,
