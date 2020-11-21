@@ -2,9 +2,6 @@
 
 This project has for purpose to help IoT developers and testers. The solution is an Azure IoT Device simulator that implements different types of Cloud To Device (C2D) / Device To Cloud (D2C) flows between [Microsoft Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/) and the simulated device.
 
->*Note:
->This solution is based on this [one](https://github.com/jonmikeli/azureiotdevicesimulator). However, both solutions will probably follow different lifecycles since .Net Core 3.x is the technical path to follow and it includes IoT related capabilities.*
-
 <br/>
 
 For more information:
@@ -23,7 +20,7 @@ Example of uses:
 <br/>
 
 Technical information:
- - .NET Core 3.x
+ - .NET 5
  - Microsoft Azure IoT SDK (Device capabilities, including IoT Hub modules)
 
 <br/>
