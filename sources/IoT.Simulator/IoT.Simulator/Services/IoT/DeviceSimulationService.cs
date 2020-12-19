@@ -1,12 +1,15 @@
 ﻿using IoT.Simulator.Extensions;
 using IoT.Simulator.Settings;
 using IoT.Simulator.Tools;
+
 using Microsoft.Azure.Devices.Client;
 using Microsoft.Azure.Devices.Shared;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+
 using System;
 using System.Collections.Generic;
 using System.IO;
