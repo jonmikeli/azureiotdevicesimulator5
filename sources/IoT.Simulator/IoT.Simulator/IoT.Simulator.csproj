@@ -8,9 +8,9 @@
     <Authors>Jon Mikel Inza</Authors>
     <Company>JMI</Company>
     <Product>IoTSimulator</Product>
-    <Description>IoT simulator covering most of common functional scenarios and implemented with Microsoft Azure IoT Client SDK and Microsoft Azure IoT Hub.</Description>
+    <Description>IoT simulator covering most of common functional scenarios included in the Azure IoT Device SDK.</Description>
     <Copyright>Jon Mikel Inza</Copyright>
-    <PackageTags>iot, simulator, Azure IoT, IoT Hub, docker, device, modules</PackageTags>
+    <PackageTags>iot, simulator, Azure IoT, IoT Hub, docker, device, modules, net5</PackageTags>
     <AssemblyVersion>0.1.0.0</AssemblyVersion>
     <FileVersion>0.1.0.0</FileVersion>
     <Version>0.1.0.0</Version>
