@@ -124,11 +124,11 @@ The features of the application rely on two main components:
 <br/>
 
 ### Runing the simulator
- The simulator is a .NET Core application.
+ The simulator is a .NET 5 application.
  
  To run the simulator, there are two alternatives:
-  1. running the simulator as a **.NET Core application** (Console Application)
-  1. running the *Docker container* (which contains in turn the .NET Core binaries, packages and other required prerequisites)
+  1. running the simulator as a **.NET 5 application** (Console Application)
+  1. running the *Docker container* (which contains in turn the .NET 5 binaries, packages and other required prerequisites)
   
  > ![NOTE]
  > 
