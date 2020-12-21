@@ -114,8 +114,8 @@ Functional features are based on these generic technical features:
  - Messages
 
 ## Upcoming features
-- IoT Plug and Play, as soon as the C# SDK will be released
-- "fileupload" feature implementation
+- IoT Plug and Play integration. An especial version totally IoT Plug and Play-oriented has been released [here](https://github.com/jonmikeli/azureiotdevicesimulator5-pnp).
+- "fileupload" feature implementation.
 
 ## More information
 
