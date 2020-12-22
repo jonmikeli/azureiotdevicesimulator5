@@ -35,13 +35,13 @@ Technical information:
 >  - the device needs to send different types of messages.
 >  - the messages will follow complex formats.
 >  - you do not want to implement DTDL models or use IoT Plug and Play features.
->  - DTDL v2 does not allow to implement what you need (ex: different schemas for one single message)
+>  - DTDL v2 does not allow to implement what you need (ex: different schemas for one single message).
 >
 > The IoT PnP simulator is recommended in contexts where:
-> - the DTDL models need to be tested
-> - the IoT Plug and Play flows need to be implemented/tested
-> - you already have one or many DTDL models and want to simulate the device fast and easily
-> - you need to integrate your device with IoT solutions (cloud) with IoT Plug and Play capabilities
+> - the DTDL models need to be tested.
+> - the IoT Plug and Play flows need to be implemented/tested.
+> - you already have one or many DTDL models and want to simulate the device fast and easily.
+> - you need to integrate your device with IoT solutions (cloud) with IoT Plug and Play capabilities.
 
 <br/>
 
