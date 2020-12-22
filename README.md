@@ -134,6 +134,7 @@ Functional features are based on these generic technical features:
  - Messages
 
 ## Upcoming features
+- DPS integration  (being implemented)
 - "fileupload" feature implementation.
 
 ## More information
