@@ -43,6 +43,7 @@ Technical information:
 > - you already have one or many DTDL models and want to simulate the device fast and easily
 > - you need to integrate your device with IoT solutions (cloud) with IoT Plug and Play capabilities
 
+<br/>
 
 *Azure IoT Device Simulator logs*
 
