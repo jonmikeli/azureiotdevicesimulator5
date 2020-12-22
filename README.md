@@ -25,6 +25,19 @@ Technical information:
 
 <br/>
 
+> IOT PLUG AND PLAY
+>
+> An IoT Plug and Play version of the simulator has been released [here](https://github.com/jonmikeli/azureiotdevicesimulator5-pnp).
+> It allows to use DTDL v2 models and generate telemetries, properties and commands dynamically, according to the defined model.
+>
+> _Which one to choose?_
+> The regular simulator is recommended in contexts where:
+>  - the device needs to send different types of messages.
+>  - the messages will follow complex formats.
+>  - you do not want implement DTDL models or use IoT Plug and Play features.
+>  - DTDL v2 does not allow to implement what you need (ex: different schemas for one single message)
+
+
 *Azure IoT Device Simulator logs*
 
 ![Azure IoT Device Simulator Logs](sources/IoT.Simulator/IoT.Simulator/docs/images/AzureIoTDeviceSimulatorLos.gif)
@@ -115,11 +128,6 @@ Functional features are based on these generic technical features:
 
 ## Upcoming features
 - "fileupload" feature implementation.
-
-> NOTE - IOT PLUG AND PLAY
->
-> An IoT Plug and Play version of the simulator has been released [here](https://github.com/jonmikeli/azureiotdevicesimulator5-pnp).
-> It allows to use DTDL v2 models and generate telemetries, properties and commands dynamically, according to the defined model.
 
 ## More information
 
