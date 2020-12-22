@@ -114,8 +114,12 @@ Functional features are based on these generic technical features:
  - Messages
 
 ## Upcoming features
-- IoT Plug and Play integration. An especial version totally IoT Plug and Play-oriented has been released [here](https://github.com/jonmikeli/azureiotdevicesimulator5-pnp).
 - "fileupload" feature implementation.
+
+> NOTE - IOT PLUG AND PLAY
+>
+> An IoT Plug and Play version of the simulator has been released [here](https://github.com/jonmikeli/azureiotdevicesimulator5-pnp).
+> It allows to use DTDL v2 models and generate telemetries, properties and commands dynamically, according to the defined model.
 
 ## More information
 
