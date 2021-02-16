@@ -91,6 +91,6 @@
     </None>
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties simulationsettings-device_1json__JSONSchema="Settings\JSONSchemas\simulationsettings-device-schema.json" devicesettings_1json__JSONSchema="Settings\JSONSchemas\devicesettings-schema.json" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties devicesettings_1json__JSONSchema="Settings\JSONSchemas\devicesettings-schema.json" messages_4measureddata_1json__JsonSchema="..\Schemas\measureddata-schema.json" simulationsettings-device_1json__JSONSchema="Settings\JSONSchemas\simulationsettings-device-schema.json" /></VisualStudio></ProjectExtensions>
 
 </Project>
