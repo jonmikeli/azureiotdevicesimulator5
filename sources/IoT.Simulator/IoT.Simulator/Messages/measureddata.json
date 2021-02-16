@@ -1,4 +1,5 @@
 {
+  "$schema": "https://cuiotsiotstoragehubdev.blob.core.windows.net/schemas/measureddata-schema.json",
   "deviceId": "",
   "moduleId": "",
   "timestamp": 0,
