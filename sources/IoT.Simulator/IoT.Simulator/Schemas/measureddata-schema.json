@@ -115,85 +115,71 @@
       ],
       "additionalItems": true,
       "items": {
-        "$id": "#/properties/data/items",
-        "anyOf": [
+        "type": "object",
+        "examples": [
           {
-            "$id": "#/properties/data/items/anyOf/0",
-            "type": "object",
-            "title": "The first anyOf schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": {},
-            "examples": [
-              {
-                "timestamp": 0,
-                "propertyName": "P1",
-                "propertyValue": 35,
-                "propertyUnit": "T",
-                "propertyDivFactor": 1
-              }
-            ],
-            "required": [
-              "timestamp",
-              "propertyName",
-              "propertyValue",
-              "propertyUnit",
-              "propertyDivFactor"
-            ],
-            "properties": {
-              "timestamp": {
-                "$id": "#/properties/data/items/anyOf/0/properties/timestamp",
-                "type": "integer",
-                "title": "The timestamp schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": 0,
-                "examples": [
-                  0
-                ]
-              },
-              "propertyName": {
-                "$id": "#/properties/data/items/anyOf/0/properties/propertyName",
-                "type": "string",
-                "title": "The propertyName schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": [
-                  "P1"
-                ]
-              },
-              "propertyValue": {
-                "$id": "#/properties/data/items/anyOf/0/properties/propertyValue",
-                "type": "integer",
-                "title": "The propertyValue schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": 0,
-                "examples": [
-                  35
-                ]
-              },
-              "propertyUnit": {
-                "$id": "#/properties/data/items/anyOf/0/properties/propertyUnit",
-                "type": "string",
-                "title": "The propertyUnit schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": [
-                  "T"
-                ]
-              },
-              "propertyDivFactor": {
-                "$id": "#/properties/data/items/anyOf/0/properties/propertyDivFactor",
-                "type": "integer",
-                "title": "The propertyDivFactor schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": 0,
-                "examples": [
-                  1
-                ]
-              }
-            },
-            "additionalProperties": true
+            "timestamp": 0,
+            "propertyName": "P1",
+            "propertyValue": 35,
+            "propertyUnit": "T",
+            "propertyDivFactor": 1
           }
-        ]
+        ],
+        "required": [
+          "timestamp",
+          "propertyName",
+          "propertyValue",
+          "propertyUnit",
+          "propertyDivFactor"
+        ],
+        "properties": {
+          "timestamp": {
+            "type": "integer",
+            "title": "The timestamp schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              0
+            ]
+          },
+          "propertyName": {
+            "type": "string",
+            "title": "The propertyName schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "P1"
+            ]
+          },
+          "propertyValue": {
+            "type": "integer",
+            "title": "The propertyValue schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              35
+            ]
+          },
+          "propertyUnit": {
+            "type": "string",
+            "title": "The propertyUnit schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "T"
+            ]
+          },
+          "propertyDivFactor": {
+            "type": "integer",
+            "title": "The propertyDivFactor schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              1
+            ]
+          }
+        },
+        "additionalProperties": true
       }
     }
   },
